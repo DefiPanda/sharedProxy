@@ -47,6 +47,10 @@ $returned_content = get_data($url);
   if (!is_dir($relative_address))
   {
     mkdir($relative_address, 0755, true);
+    $fp = fopen($relative_address.'/host.txt', 'w');
+    $data = $url;
+    fwrite($fp, $data);
+    fclose($fp);
   }
   $refs = $dom->getElementsByTagName('script');
   foreach ($refs as $book) {
@@ -68,7 +72,6 @@ $returned_content = get_data($url);
        $fp = fopen($dir_name, 'w');
        
        $data = get_data($url . $file);
-       var_dump($dir_name);
        fwrite($fp, $data);
        fclose($fp);
        $book->setAttribute('href', 'api/'.$dir_name);
@@ -82,7 +85,6 @@ $returned_content = get_data($url);
     $fp = fopen($dir_name, 'w');
        
     $data = get_data($url . $file);
-    var_dump($dir_name);
     fwrite($fp, $data);
     fclose($fp);
     $book->setAttribute('src', 'api/'.$dir_name);
