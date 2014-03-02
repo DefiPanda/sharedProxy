@@ -1,5 +1,5 @@
 <?php
-ini_set('display_errors', 'On');
+//ini_set('display_errors', 'On');
 
 // INITIALIZE IT
 // phpQuery::newDocumentHTML($markup);
@@ -21,11 +21,21 @@ function get_data($url) {
 	return $data;
 }
 
+function findexts ($filename) 
+ { 
+ $filename = strtolower($filename) ; 
+ $exts = split("[/\\.]", $filename) ; 
+ $n = count($exts)-1; 
+ $exts = $exts[$n]; 
+ return $exts; 
+ } 
+
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['url']) && isset($_GET['filepath'])) {
 
 $url = $_GET['url'];
 $filepath = $_GET['filepath'];
+
 
 $returned_content = get_data($url);
 // echo $doc['a']->attr('src', "999");
@@ -33,60 +43,54 @@ $returned_content = get_data($url);
 
   $dom = new DomDocument();
   $dom->loadHTML($returned_content);
-  $A = array();
-  $refs = $dom->getElementsByTagName('script');
-  foreach ($refs as $book) {
-  	array_push($A, $book->getAttribute('src'));
-  }
-
-   $refs = $dom->getElementsByTagName('link');
-  foreach ($refs as $book) {
-  	array_push($A, $book->getAttribute('href'));
-  }
-
-  $relative_address = '../shared/' . $filepath;
+  $relative_address = 'shared/' . $filepath;
   if (!is_dir($relative_address))
   {
     mkdir($relative_address, 0755, true);
   }
+  $refs = $dom->getElementsByTagName('script');
+  foreach ($refs as $book) {
+  	$file = $book->getAttribute('src');
+   $dir_name = $relative_address.'/'.sha1(sha1(time() . rand()) . $file) . '.' . findexts($file);
+       $fp = fopen($dir_name, 'w');
+       
+       $data = get_data($url . $file);
+       fwrite($fp, $data);
+       fclose($fp);
+     $book->setAttribute('src', 'api/'.$dir_name);
+  }
+
+  $refs = $dom->getElementsByTagName('link');
+  foreach ($refs as $book) {
+    $file = $book->getAttribute('href');
+
+    $dir_name = $relative_address.'/'.sha1(sha1(time() . rand()) . $file) . '.' . findexts($file);
+       $fp = fopen($dir_name, 'w');
+       
+       $data = get_data($url . $file);
+       var_dump($dir_name);
+       fwrite($fp, $data);
+       fclose($fp);
+       $book->setAttribute('href', 'api/'.$dir_name);
+  }
+
+  $refs = $dom->getElementsByTagName('img');
+  foreach ($refs as $book) {
+    $file = $book->getAttribute('src');
+
+    $dir_name = $relative_address.'/'.sha1(sha1(time() . rand()) . $file) . '.' . findexts($file);
+    $fp = fopen($dir_name, 'w');
+       
+    $data = get_data($url . $file);
+    var_dump($dir_name);
+    fwrite($fp, $data);
+    fclose($fp);
+    $book->setAttribute('src', 'api/'.$dir_name);
+ }
+
+$newHTML = $dom->saveHTML();
   
-
-// $regex = '/(script|link)*(href|src)[^ ]*/';
-
-// preg_match_all($regex, $returned_content, $result, PREG_PATTERN_ORDER);
-// $A = $result[0];
-
-// foreach($A as $B)
-// {
-//    print($B);
-//    print('<br>');
-// }
-
-
-for($i = 0; $i < count($A); $i++)
-{ 
-     $data = get_data($A[$i]);
-     
-     $dir_name = $relative_address;
-     $dirs = explode('/', $A[$i]);
-     for($j = 0; $j < count($dirs) - 1; $j++){
-       if($dirs[$j] != ""){
-       	 $dir_name = $dir_name . '/' . $dirs[$j];
-       	 if (!is_dir($dir_name))
-	     {
-	       mkdir($dir_name, 0755, true);
-	     }
-       }
-     }
-     $filename = $dir_name . '/' . $dirs[count($dirs) - 1];
-     print($filename);
-     print('<br>');
-     $fp = fopen($filename, 'w');
-	 fwrite($fp, $data);
-	 fclose($fp);
-}
-
-print($returned_content);
+print($newHTML);
 exit();
 }
 

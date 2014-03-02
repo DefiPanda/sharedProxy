@@ -1,0 +1,16 @@
+#unc-logo, #carousel-3col, #carousel-2col, #personaltools{
+display: none;
+
+}
+
+div, #content,#content-well, #content-lr, #content-l, #content-r {
+overflow: visible;
+width: auto;
+}
+
+
+#portal-logo{
+display: block;
+}
+
+

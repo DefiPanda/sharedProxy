@@ -1,0 +1,50 @@
+Array
+(
+    [HTTP_HOST] => localhost:8000
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4,zh-TW;q=0.2,es;q=0.2,ja;q=0.2
+    [HTTP_COOKIE] => _flgpst_session=aGo1Q3BxenNoZlVpVWtpTStuVU00YlRneWQxOElGK0lMRXVObXljUEFzbS8wZTJqZXZwLzFxT3ROOG9aMjNRSGRFTEQzSDNWd3hYWnpJcFdBTjN1cjFCUHVDM1A1QktpS3JPZDloNFN0RnlUd2luMndHWkpFWXJwMWJhTStsZGlXOFVBY3lQUUhUaWprNEF2MjJUc0xCUXh1c2xhN3Y2ejR6ZWZyWnhxU0wveHFpc09SaVJUUm5iZS9uS3M0SVU0V2xwbm1aSHY4b2JHRGc1OXlsVXJIOUY4SUd1dG9rMzBTMmxSaVJwNG41R1Z3MmQ5MmEvS295YVpDbDlaZzMrbGdiY3h4RW5mcnRlekNldkVJeHF6bFdkeGNobEJjTGo2QU1SZGhBdWE5TFRkckJhdUJwS1d3ZGkvQlR6aGorYVdkajJxU01aemg2RXNQeW9SQmJrdm8zeFM4NnZRNWVvMzE1TnFJTjhHYkJsZHc3Rk5RK0dNNFNTM2w0Um9hZUUweWc3ck9OdFlIOXo0OUdQODA0U3NkQT09LS00LzB2anBZSHpqcWdhN1g3MTM5OVJRPT0%3D--7cab889ef189ae8d3798a0584bf381b0254becb9
+    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 8000
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /Users/zhew/Documents/Github
+    [SERVER_ADMIN] => you@example.com
+    [SCRIPT_FILENAME] => /Users/zhew/Documents/Github/sharedProxy/index.php
+    [REMOTE_PORT] => 64201
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /sharedProxy/
+    [SCRIPT_NAME] => /sharedProxy/index.php
+    [PHP_SELF] => /sharedProxy/index.php
+    [REQUEST_TIME] => 1393703894
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+===========php://input===========
+
+======================
+
+2014-03-01 14:58:14 URL: /sharedProxy/
+
+Host: localhost:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4,zh-TW;q=0.2,es;q=0.2,ja;q=0.2
+Cookie: _flgpst_session=aGo1Q3BxenNoZlVpVWtpTStuVU00YlRneWQxOElGK0lMRXVObXljUEFzbS8wZTJqZXZwLzFxT3ROOG9aMjNRSGRFTEQzSDNWd3hYWnpJcFdBTjN1cjFCUHVDM1A1QktpS3JPZDloNFN0RnlUd2luMndHWkpFWXJwMWJhTStsZGlXOFVBY3lQUUhUaWprNEF2MjJUc0xCUXh1c2xhN3Y2ejR6ZWZyWnhxU0wveHFpc09SaVJUUm5iZS9uS3M0SVU0V2xwbm1aSHY4b2JHRGc1OXlsVXJIOUY4SUd1dG9rMzBTMmxSaVJwNG41R1Z3MmQ5MmEvS295YVpDbDlaZzMrbGdiY3h4RW5mcnRlekNldkVJeHF6bFdkeGNobEJjTGo2QU1SZGhBdWE5TFRkckJhdUJwS1d3ZGkvQlR6aGorYVdkajJxU01aemg2RXNQeW9SQmJrdm8zeFM4NnZRNWVvMzE1TnFJTjhHYkJsZHc3Rk5RK0dNNFNTM2w0Um9hZUUweWc3ck9OdFlIOXo0OUdQODA0U3NkQT09LS00LzB2anBZSHpqcWdhN1g3MTM5OVJRPT0%3D--7cab889ef189ae8d3798a0584bf381b0254becb9
+

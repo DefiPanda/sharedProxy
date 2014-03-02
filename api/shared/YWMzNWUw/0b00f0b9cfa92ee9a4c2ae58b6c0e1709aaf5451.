@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta http-equiv="refresh" content="1;url=http://wwwx.cs.unc.edu/~duozhao">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title> Duo Zhao  </title>
+
+<meta name="keywords" content="free css template, ce Bubble Blog, Free Blog Template" />
+
+<meta name="description" content="Ice Bubble Blog - free CSS template for everyone" />
+
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+	window.location.replace("http://wwwx.cs.unc.edu/~duozhao");
+</script>
+
+
+</head>
+
+<body>
+	Hello World
+<div id="content"><div class="inner_copy"><a href="http://www.freetemplatesonline.com/">Free Web Templates</a> <a href="http://www.websitetemplates.org/">Website Templates</a> <a href="http://www.webdesign.org/website-design">Website Design</a></div></div>
+
+	<div id="templatemo_container">
+    	
+        <div id="templatemo_header_section">
+        	<div id="templatemo_menu_panel">
+        		<div id="templatemo_menu_section">
+                
+            		<ul>
+		                <li><a href="index.html"  class="current">Home</a></li>
+        		        <li><a href="#">Recent Posts</a></li>
+		                <li><a href="#">Archives</a></li>
+		                <li><a href="#">Gallery</a></li>  
+        		        <li><a href="#">About Us</a></li> 
+                		<li><a href="#">Contact Us</a></li>                     
+		            </ul> 
+                    
+				</div>
+            </div><!--  End of Menu --> 
+			<div id="templatemo_logo_section">            
+				<h1>Duo Zhao </h1>
+                <h2> <font color=#FFFF00> *** Migrating.... ***</font> </h2>            
+				<h2>Success is not defined by obtaining everything you want,
+but by enjoying and appreciating everything you want.</h2>
+			</div>
+        	
+        </div><!--  End of header --> 
+        <div id="templatemo_content_section">
+        	<div id="templatemo_left_section">
+            	
+                <div class="templatemo_post">
+                	<div class="templatemo_post_top">
+                    	<div class="templatemo_post_top_left">
+                        	Fall
+                            <span>2010</span>
+                        </div>
+                    	<div class="templatemo_post_top_right">
+                        	Profile
+                        </div>                        
+                    </div>
+                    <div class="templatemo_post_middle">
+                    	<div class="clear"></div>
+                    	<p><img alt="Fashion Template" src="images/river_bank.jpg" alt="" width="300" height="225"/>
+                        Applied Math PhD 2010</p>
+                        <p>Carolina Center for Interdisciplinary Applied Mathematics</p>
+                        <p>University of North Carolina at Chapel Hill</p>
+                        <p> Email: <a href="mailto:duo.zhao@unc.edu">duo.zhao@unc.edu</a></p>
+                        <p> TEL: 919-636-9669 </p>
+                        
+                        
+                      <div class="clear"></div>
+                    </div><!--  End of Post Middle -->
+                    <div class="templatemo_post_bottom">
+                    	<div class="clear">&nbsp;</div>
+                    	<span class="post">Posted By: Admin | Category: <a href="http://www.templatemo.com" target="_parent">CSS Templates</a> | Date: 18:30, 24 February 2024</span>                    </div>
+                </div><!--  End of Post -->
+                
+                <div class="templatemo_post">
+                	<div class="templatemo_post_top">
+                    	<div class="templatemo_post_top_left">
+                        	DEC
+                            <span>18</span>
+                        </div>
+                    	<div class="templatemo_post_top_right">
+                        	Temporary Files
+                        </div>                        
+                    </div>
+                    <div class="templatemo_post_middle">
+                    	<div class="clear"></div>
+                    	<p><img alt="Fashion Template" src="./images/Mountain.jpg" alt="" width="300" height="225"/>Files</p>
+                        <p><a href="./temp"> Click here to Go to My files </a><p>
+                        <p><a href="./pitap"> Click here to Go to PITAP </a><p>
+                        <p><a href="./2012"> Click here to Go to Spring 2012 Scheme </a><p>
+                        <div class="clear"></div>
+                    </div><!--  End of Post Middle -->
+                    <div class="templatemo_post_bottom">
+                    	<div class="clear">&nbsp;</div>
+                    	<span class="post">Posted By: Admin | Category: <a href="http://www.flashmo.com" target="_parent">Flash Templates</a> | Date: 21:40, 18 December 2024</span>                    </div>
+                </div><!--  End of Post -->
+                
+                <div class="templatemo_post">
+                	<div class="templatemo_post_top">
+                    	<div class="templatemo_post_top_left">
+                        	DEC
+                            <span>12</span>
+                        </div>
+                    	<div class="templatemo_post_top_right">
+                        	Post Title Three goes here
+                        </div>                        
+                    </div>
+                    <div class="templatemo_post_middle">
+                    	<div class="clear"></div>
+                    	<p>Maecenas molestie, risus egestas rutrum aliquam, ligula enim bibendum eros, vel ultrices tellus mi eget purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis odio ac sapien. Proin semper justo non dui. </p>
+                        <p> Vivamus interdum, pede sed malesuada facilisis, odio nibh gravida nulla, nec malesuada lacus arcu id leo. Mauris diam ligula, adipiscing a, mollis eu, gravida eget, orci.</p>
+                        
+                        <div class="clear"></div>
+                    </div><!--  End of Post Middle -->
+                    <div class="templatemo_post_bottom">
+                    	<div class="clear">&nbsp;</div>
+                    	<span class="post">Posted By: Admin | Category: <a href="http://www.flashmo.com" target="_parent">Flash Templates</a> | Date: 14:25, 12 December 2024</span>                    </div>
+                </div><!--  End of Post -->
+                
+            </div><!--  End of Left Section --> 
+            
+            <div id="templatemo_right_section">
+            
+            	<div class="templatemo_section">
+                
+                	<div class="templatemo_section_top">
+                    	<div class="templatemo_section_top_left">
+                        </div>
+                        <div class="templatemo_section_top_right">
+                        	About This Blog</div>
+                    </div>
+                    <div class="templatemo_section_middle">
+                    	<p>This free blog website template is provided by <a href="http://www.templatemo.com" target="_parent">TemplateMo.com</a>. You may download, modify and apply this layout for your blog content management systems. Have Fun!</p>
+                  </div>
+                    <div class="templatemo_section_bottom">
+                    </div>
+                    
+                </div><!--  End of section  box--> 
+            
+            
+            	<div class="templatemo_section">
+                
+                	<div class="templatemo_section_top">
+                    	<div class="templatemo_section_top_left">
+                        </div>
+                        <div class="templatemo_section_top_right">
+                        	Categories</div>
+                    </div>
+                    <div class="templatemo_section_middle">
+                    	<ul>
+                        	<li><a href="#">Web Design</a></li>
+                            <li><a href="#">JavaScripts</a></li>
+                            <li><a href="#">Photo Gallery</a></li>
+                            <li><a href="#">CSS Templates</a></li>
+                            <li><a href="#">Flash Templates</a></li>
+                        </ul>
+                    </div>
+                    <div class="templatemo_section_bottom">
+                    </div>
+                    
+                </div><!--  End of section  box--> 
+                
+            
+            	<div class="templatemo_section">
+                
+                	<div class="templatemo_section_top">
+                    	<div class="templatemo_section_top_left">
+                        </div>
+                        <div class="templatemo_section_top_right">
+                        	Advertisements</div>
+                    </div>
+                    <div class="templatemo_section_middle">
+                    	<a href="#"><img alt="Ad Banner" src="images/templatemo_ads.jpg" /></a>
+                        <a href="#"><img alt="Ad Banner" src="images/templatemo_ads.jpg" /></a>
+                        <a href="http://www.templatemo.com" target="_parent"><img alt="Free CSS" src="images/templatemo_ads.jpg" /></a>
+                        <a href="#"><img alt="Ad Banner" src="images/templatemo_ads.jpg" /></a> </div>
+                  <div class="templatemo_section_bottom">
+                    </div>
+                    
+                </div><!--  End of section  box--> 
+            	
+            </div><!--  End of right Section --> 
+      		<div class="clear">&nbsp;</div>
+        </div><!--  End of Content Area --> 
+		<div id="templatemo_footer">
+        	Copyright © 2024 Your Company Name | Designed by <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
+        </div>
+    </div><!--  End of container --> 
+</body>
+<!--  Free CSS Template is designed by TemplateMo.com  -->
+</html>

@@ -1,7 +1,3 @@
-<?php if(isset($_GET['file']) == false){
-    $rand = substr(base64_encode(sha1(time() . rand())), 0,8);
-    header("Location: index.php?file=" . $rand);
-}?>
 <!DOCTYPE html>
 <html>
 <head>
